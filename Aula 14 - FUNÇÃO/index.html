@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <script type ="text/javascript" src="funcao.js"></script>
+</head>
+<body>
+    <div style="width: 40%; margin: auto; background: #DCDCDC;
+     padding: 20px; border-radius: 30px;">
+     <h1 style="text-align: center;">Cálculo de Tabuada</h1>
+     <hr>
+     <form name = "formulario_tabuada">
+         <label>Escolha a Tabuada:</label><br>
+         <input type="number" name="tabuada_digitada" value="0"/><p>
+
+         <input type="button" value="Calcular Tabuada" onclick="javascript:calcular_tabuada();"/>
+         <input type="reset" name="botao_reset">
+         <p><hr>
+             
+         <label>Resultado da Tabuada</label><p>   
+             
+         <textarea rows="15" name="texto_retorno_tabuada" readonly>
+             
+         </textarea>   
+     </form>
+
+
+    </div>
+</body>
+</html>
