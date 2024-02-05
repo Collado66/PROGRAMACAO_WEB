@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Cálculo Maior Idade</title>
+
+	<!-- Código para Importar um Arquivo em JavaScript -->
+	<script type="text/javascript" src="funcao.js"></script>
+</head>
+<body>
+	<div style="width: 40%; margin: auto; background: #DCDCDC; padding: 20px; border-radius: 30px;"> <!-- border-radius deixa o canto arredondado-->
+	<h1 style= "text-align: center;">Cálculo de Maior Idade</h1>
+	<hr>
+	<form name = "formulario_idade_pessoa">
+		<label>Nome:</label><br>
+		<input type="text" name="nome_digitado" autofocus=""/><br>
+		<label>Idade:</label><br>
+		<input type="number" name="idade_digitada"/><p>
+		<input type="button" value="Calcular idade" onclick="javascript:calcular_idade();"/>
+		<input type="reset" name="botao_reset">
+		<p><hr>
+		<label>Situação da Pessoa</label><p>
+		<label>Nome:</label><br>
+		<input type="text" name="nome_pessoa" readonly/><br>
+		<label>Idade:</label><br>
+		<input type="text" name="idade_pessoa" readonly/><br> <!-- readonly: não pode digitar na txt, apenas para ler -->
+		<label>Situação da Pessoa: </label><br>
+		<input type="text" name="situacao_pessoa" readonly/><br>
+	</form>
+
+		</div>
+
+</body>
+</html>
