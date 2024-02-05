@@ -1,0 +1,32 @@
+
+#div_alinhamento_centro
+{
+position: relative; 
+margin: auto;
+top:10px;
+ width: 80%; 
+height: 100px; 
+text-align: center;
+padding: 20px;
+
+font-size: 20px;
+
+
+}
+
+
+#div_alinhamento_centro img
+{
+	width: 100px;
+	height: 100px;
+}
+
+
+#div_alinhamento_centro label
+{
+	font-size: 40px;
+	color: red;
+	font-style:oblique;
+	font-weight: bold;
+}
+
