@@ -1,0 +1,58 @@
+<style tyep="text/css">
+  body { margin: 0; font: 100% sans-serif; }
+  h1 { font-size: 160%; }
+
+ .container {
+ width: 940px;
+ margin: 0 auto;
+ background: #b5b5b5;
+ }
+
+
+.row { margin-left: -20px; }
+.span1 {
+ width: 60px;
+ float: left;
+ margin-left: 20px;
+ background: #d5d5d5
+ }
+
+
+
+.row:after {
+17. content: "";
+18. display: table;
+19. line-height: 0;
+20. clear:both;
+21. }
+
+ [class*="span"] {
+ float: left;
+ margin-left: 20px;
+ background: #d5d5d5
+ }
+ .span4 { width: 300px; }
+ .span8 { width: 620px; }
+.span1 { width: 60px; }
+.span2 { width: 140px; } /* 2x60 + 1x20 */
+.span3 { width: 220px; } /* 3x60 + 2x20 */
+.span4 { width: 300px; } /* 4x60 + 3x20 */
+.span5 { width: 380px; } /* 5x60 + 4x20 */
+.span6 { width: 460px; } /* 6x60 + 5x20 */
+.span7 { width: 540px; } /* 7x60 + 6x20 */
+.span8 { width: 620px; } /* 8x60 + 7x20 */
+.span9 { width: 700px; } /* 9x60 + 8x20 */
+.span10 { width: 780px; } /* 10x60 + 9x20 */
+.span11 { width: 860px; } /* 11x60 + 10x20 */
+.span12 { width: 940px; } /* 12x60 + 11x20 */
+
+
+ 
+ </style>
+
+
+
+
+
+ .row:after { /* técnica moderna para clear floats */
+ content: “"; display: table; line-height: 0; clear:both; }  </style>
