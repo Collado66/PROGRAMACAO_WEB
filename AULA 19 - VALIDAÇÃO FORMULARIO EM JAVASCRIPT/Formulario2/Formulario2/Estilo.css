@@ -1,0 +1,77 @@
+html,*{
+    margin: 1%;
+    padding: 1%;
+}
+
+body{
+    background-color: rgb(58, 47, 68);
+} 
+
+div.body-contant{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+button{
+    background-color: rgb(184, 149, 218);
+    font-size: medium;
+    color: black;
+    border-radius: 2.5pc;
+    width: 5pc;
+    height: 2pc;
+    padding: 5px;
+    border: solid;
+    border-color: rgb(119, 96, 143) ;
+}
+
+form{
+    width: 120%;
+    height: 200%;
+    justify-items: center;
+}
+
+.container {
+    display: block;
+    margin-left: 29pc;
+    justify-items: center;
+}
+
+#quadrado{
+    border: solid;
+    border-color: rgb(104, 90, 117);
+    background-color:rgb(130, 113, 146) ;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 33px;
+    position: absolute;
+    border-radius: 2.5pc;
+    justify-items: center;
+}
+
+h3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(28, 27, 29);
+    margin-right: 5pc;
+
+}
+
+label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(28, 27, 29);
+    margin-right: 7px;
+}
+
+input
+{
+    display:flex;
+    width: 80%;
+    margin-bottom: 4%;
+    margin-left: 0.5%;
+    background-color: black;
+    padding: 11px;
+    border-radius: 3px;
+    border: solid;
+    border-color:rgb(178, 162, 194);
+    color:  rgb(178, 162, 194);
+}

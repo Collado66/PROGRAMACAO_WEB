@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<link rel="stylesheet" href="Css/Style.css">
+<link rel="stylesheet" href="Css/Formulario.css">
+
+<body>
+    <div class="container body-content">
+    
+   <div id="contorno">
+
+    <h1>Formulário</h1>
+    <h2>Preencha as informações:</h2>
+
+    <br>
+    <form id="form">
+    <input id="name" type="text" name="nome" placeholder="Digite seu nome completo:" required maxlength="26" minlength="5"> 
+    <input id="email" type="email" name="email" id="email" placeholder="Digite seu e-mail:" required maxlength="50">  
+    <input id="cpf" type="text" name="cpf" placeholder="Digite seu CPF:" required>    
+
+    <div class="conteiner">
+    <button onclick="validarForm()" type="submit"><p class="button">Enviar</p></button>
+    </div>
+</form> 
+
+</div>
+</div>
+
+<div id="footer">
+      &copy
+                2023 Todos os direitos reservados
+    </div>
+    <script src="Js/Formulario.js"></script>
+</body>
+</html>
