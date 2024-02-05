@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="valida_form.js" type="text/javascript"></script>
+<style>
+label {
+	display: block; 
+	margin: 5px 0; 
+}
+</style>
+<title>Untitled Document</title>
+</head>
+
+<body>
+<form action="" method="post" name="form" id="form">
+	<fieldset>
+    <legend>Dados Pessoais</legend>
+        <label>Nome: </label><input type="text" id="txNome" value="" />
+        <label>Telefone: </label>
+        <input type="text" id="txTelefone" value="" />
+        
+        <label>E-mail: </label>
+        <input type="text" id="txEmail" value="" />      
+        
+        <label>Estado: </label>    
+        <select id="cbEstado">
+            <option value="sp">São Paulo</option>  
+            <option value="rj">Rio de Janeiro</option>
+            <option value="mg">Minas Gerais</option>  
+                  
+        </select>
+        <label>Estado Civil: </label>  
+        <input type="radio" name="estadocivil" id="spEstados" value="Casado" /> Casado
+        <input type="radio" name="estadocivil" id="spEstados" value="Solteiro" /> Solteiro
+        <input type="radio" name="estadocivil" id="spEstados" value="Divorciado" /> Divorciado
+        <input type="radio" name="estadocivil" id="spEstados" value="Viuvo" /> Viuvo
+    </fieldset>
+            
+    <input type="button" id="enviar" name="enviar" value="Enviar" />
+</form>
+</body>
+</html>
