@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+
+    var m1, m2, m3, media, nome;
+    nome = prompt("Qual é seu nome ?");
+    alert ("Ok "+ nome +" ,agora vamos saber a sua média");
+    m1= prompt("Qual é a 1ª nota ?");
+    m1 = eval (m1);
+    m2= prompt("Qual é a 2ª nota ? ");
+    m2 = eval (m2);
+    m3= prompt("Qual é a 3ª nota ?");
+    m3 = eval (m3);
+    media = (m1+m2+m3) / 3;
+    
+    
+    alert("A sua média é: " + media);
+
+    
+     if(media >= 6)
+    {
+        alert("Parabéns, você foi aprovado!")
+    }
+
+    else if (media == 5)
+    {
+        alert("Humm você ficou de recuperação");
+    }
+
+    else {
+        alert("Você foi reprovado");
+    }
+
+
+</script>
+</html>
